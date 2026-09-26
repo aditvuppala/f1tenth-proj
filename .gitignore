@@ -1,0 +1,29 @@
+cat << 'EOF' > .gitignore
+# Python virtual environment
+venv/
+env/
+.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large dataset files & models (keep repo lightweight)
+*.npz
+*.pt
+*.pth
+*.onnx
+
+# Simulator build artifacts & logs
+f1tenth_gym/build/
+f1tenth_gym/dist/
+f1tenth_gym/*.egg-info/
+.eggs/
+
+# IDE configs
+.vscode/
+.idea/
+.DS_Store
+EOF
