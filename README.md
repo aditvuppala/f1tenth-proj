@@ -9,3 +9,8 @@ Pipline:
 
 
 Uses Python 3.12 and PyTorch
+
+In the future:
+- Drive your own car for training other strategies
+- Evaluate on other tracks
+- Collect more varied data
